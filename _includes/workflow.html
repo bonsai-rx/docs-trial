@@ -1,0 +1,17 @@
+<table>
+    <thead>
+      <tr>
+        <th>Workflow</th>
+        <th style="text-align: center">
+          <button class="btn" onclick="copyUrlToClipboard('assets\\workflows\\{{ include.src }}.bonsai')">Copy</button>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <img src="assets\workflows\{{ include.src }}.svg" alt="{{ include.src }}" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
